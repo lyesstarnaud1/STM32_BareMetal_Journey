@@ -1,0 +1,15 @@
+15:54:00 **** Incremental Build of configuration Debug for project passing_by_adress_test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: passing_by_adress_test
+Invoking: GCC C Linker
+gcc  -o "passing_by_adress_test" ./main.o   
+Finished building target: passing_by_adress_test
+ 
+
+15:54:00 Build Finished. 0 errors, 0 warnings. (took 538ms)
+

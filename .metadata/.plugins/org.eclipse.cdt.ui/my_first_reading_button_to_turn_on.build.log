@@ -1,0 +1,10 @@
+18:52:30 **** Incremental Build of configuration Debug for project my_first_reading_button_to_turn_on ****
+make -j2 all 
+arm-none-eabi-size  my_first_reading_button_to_turn_on.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3612	     92	   1900	   5604	   15e4	my_first_reading_button_to_turn_on.elf
+Finished building: default.size.stdout
+ 
+
+18:52:30 Build Finished. 0 errors, 0 warnings. (took 162ms)
+

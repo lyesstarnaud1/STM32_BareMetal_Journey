@@ -1,0 +1,17 @@
+14:54:54 **** Incremental Build of configuration Debug for project using__typedf_struct_bitfield_bssr_register ****
+make -j2 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "using__typedf_struct_bitfield_bssr_register.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ilyes/Embedded-c/My_workspace/target/using__typedf_struct_bitfield_bssr_register/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="using__typedf_struct_bitfield_bssr_register.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: using__typedf_struct_bitfield_bssr_register.elf
+ 
+arm-none-eabi-size  using__typedf_struct_bitfield_bssr_register.elf 
+arm-none-eabi-objdump -h -S using__typedf_struct_bitfield_bssr_register.elf  > "using__typedf_struct_bitfield_bssr_register.list"
+   text	   data	    bss	    dec	    hex	filename
+    824	      0	   1568	   2392	    958	using__typedf_struct_bitfield_bssr_register.elf
+Finished building: default.size.stdout
+ 
+Finished building: using__typedf_struct_bitfield_bssr_register.list
+ 
+
+14:54:54 Build Finished. 0 errors, 0 warnings. (took 570ms)
+
