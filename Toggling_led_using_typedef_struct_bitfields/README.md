@@ -1,4 +1,4 @@
-# Project 01: PA5 Toggle via Bit-field Abstraction
+#  PA5 Toggle via Bit-field Abstraction
 
 ### 🏆 Achievements & & Lessons
 1. **Bit-field Abstraction:** Moved from raw bit-shifting to C Bit-field structures in `main.h`. This allows for human-readable code like `p_clk_en->GPIOAEN = 1`.
